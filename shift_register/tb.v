@@ -20,7 +20,6 @@ begin
 
 L=1; r1=1; r2=0;r3=0;
 @(posedge clk);
-@(posedge clk);
 L=0;
 @(posedge clk);
 @(posedge clk);
