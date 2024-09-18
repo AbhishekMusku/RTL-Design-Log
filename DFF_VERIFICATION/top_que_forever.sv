@@ -74,3 +74,7 @@ reg unsigned [3:0] exp[$], dur[$];
 always @(posedge clk) D <= $urandom();
 
 endmodule
+
+
+
+
