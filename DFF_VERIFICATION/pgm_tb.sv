@@ -1,4 +1,4 @@
-program pgm_tb (dff_intf vif) ;
+program pgm_tb (dff_intf.pgm vif) ;
   
   
 	reg [3:0] C1;

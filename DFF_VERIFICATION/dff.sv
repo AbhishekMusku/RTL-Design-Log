@@ -1,4 +1,4 @@
-module dut (dff_intf dif);
+module dut (dff_intf.dut dif);
 
 always @(posedge dif.clk or posedge dif.top_rst)
 begin
