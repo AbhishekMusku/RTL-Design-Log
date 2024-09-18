@@ -5,7 +5,7 @@ module top;
   wire [3:0] d_tb;
   wire [3:0] q_tb;
 
-	int matched, mismatched;
+
   // Instantiate the DUT (Device Under Test)
   dut UUT (
     .clk(clk),

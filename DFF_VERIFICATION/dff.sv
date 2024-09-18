@@ -1,12 +1,9 @@
-module dut (clk, rst, D, Q);
-input [3:0] D;
-output reg [3:0] Q;
-input clk, rst;
+module dut (dff_intf dif);
 
-always @(posedge clk or posedge rst)
+always @(posedge dif.clk or posedge dif.top_rst)
 begin
-  if (rst) Q <= 0;
-  else Q <= D;
+  if (dif.top_rst) dif.top_q <= 0;
+  else dif.top_q <= dif.top_d;
 end
 
 endmodule
