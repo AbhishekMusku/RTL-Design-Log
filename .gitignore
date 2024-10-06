@@ -3,3 +3,4 @@
 
 # Ignore all .wlf files in any directory or subdirectory
 *.wlf
+*.vcd
